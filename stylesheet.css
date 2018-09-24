@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, html {
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0;
+}
+p, h1, h2, h3, h4 {
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+#wrapper {
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    margin: 0px;
+    display: table;
+}
+/*GENERAL*/
+.button  {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: #e7e7e7;
+}
+.today {
+    background-color: green;
+}
+
+/*TOPBAR*/
+#topbar {
+    background-color: #f1f1f1;
+    height: 75px;
+    width: auto;
+    padding: 0 10px 0 10px;
+}
+#topbar table {
+    height: 100%;
+    padding: 0;
+    vertical-align: center;
+}
+
+
+/*CALENDAR*/
+#calAndInfo {
+    position: absolute;
+    height: calc(100% - 75px);
+    width: 100%;
+    background-color: brown;
+    padding: 0;
+    border: none;
+}
+#calendar {
+    background-color: #e7e7e7;
+    padding: 0;
+}
+#calendar * {
+    padding: 0;
+    margin: 0;
+}
+#realCalendar {
+    width: 100%;
+    height: 100%;
+    border: 1px #000000;
+    table-layout: fixed;
+    width: 100%;
+}
+#realCalendar th {
+    border: thin solid rgb(218, 218, 218);
+    vertical-align: text-top;
+    text-align: right;
+}
+#calWeekDays {
+    height: 20px;
+}
+#realCalendar tr:not(#calWeekDays) th p {
+    padding: 5px;
+}
+#calWeekDays th {
+    padding: 5px;
+    text-align: center;
+}
+
+#sidebar {
+    padding: 0;
+    background-color: #d8d8d8;
+    width: 300px;
+}

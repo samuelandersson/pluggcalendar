@@ -1,0 +1,4 @@
+0.1 - Start:
+- Created calendar
+- Created sidebar and topbar
+- Created calendar script (without events)
