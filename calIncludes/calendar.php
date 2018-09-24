@@ -1,6 +1,6 @@
 <table id="realCalendar" cellspacing="0" cellpadding="0">
     <tr id="calWeekDays">
-        <th><p>Monday</p></th>
+        <th><p>Monday </p></th>
         <th><p>Tuesday</p></th>
         <th><p>Wedensday</p></th>
         <th><p>Thursday</p></th>
